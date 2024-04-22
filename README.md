@@ -51,8 +51,10 @@ bot.makeExcelSheet()
 ```
 ## Example Excel File and Image Directory
 **If you run above snippet (which is in python file by default) you get**
-- An example Excel file named `monolithai.xlsx` containing the scraped data is in this repository.
-- Example images from the webpage is saved in a directory named `monolithai`.
+- An Excel file named `monolithai.xlsx` containing the scraped data will be generated after running the script.
+- Images from the webpage is saved in a directory named `monolithai`.
+
+*example excel file and images directory are in repository*
 
 Note: Please make sure to have proper permissions to create directories and write files in the script execution directory.
 
