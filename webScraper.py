@@ -85,7 +85,7 @@ class webScraper():
         titles = pd.Series(data["Titles"], name="Titles")
         images = pd.Series(data["Image Directory"], name="Image Directory Path")
         df = pd.concat([titles, emails, innerLinks, outerLinks , images], axis=1)
-        df.to_excel(f"{bot.domain}.xlsx", index=False)
+        df.to_excel(f"{self.domain}.xlsx", index=False)
         
 
 url = "https://www.monolithai.com/blog/4-ways-ai-is-changing-the-packaging-industry"
